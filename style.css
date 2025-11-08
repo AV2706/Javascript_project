@@ -1,0 +1,25 @@
+body {
+  background-color: #fff6f8;
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  cursor: none;
+}
+•	Cute background, hides cursor, centers text, prevents scrollbars
+h1 {
+  color: #ff80ab;
+  margin-top: 10px;
+}
+#ball {
+  position: absolute;
+  width: 60px;
+}
+•	Absolute positioning allows movement anywhere with JS
+#cat-cursor {
+  position: absolute;
+  width: 80px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
