@@ -5,7 +5,9 @@ const catchSound = document.getElementById("catchSound");
 const catCursor = document.createElement("img");       
 catCursor.src = "cat.jpeg";   
 catCursor.id = "cat-cursor";                        
-document.body.appendChild(catCursor);                
+document.body.appendChild(catCursor);  
+catCursor.style.width = "50px";
+catCursor.style.height = "50px";             
 
 let score = 0;
 document.addEventListener("mousemove", (e) => {

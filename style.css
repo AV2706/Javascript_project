@@ -19,7 +19,6 @@ h1 {
 •	Absolute positioning allows movement anywhere with JS
 #cat-cursor {
   position: absolute;
-  width: 30px;
   pointer-events: none;
   transform: translate(-50%, -50%);
 }
