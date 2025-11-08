@@ -11,6 +11,7 @@ catCursor.style.height = "50px";
 
 let score = 0;
 document.addEventListener("mousemove", (e) => {
+  console.log(e.pageX, e.pageY);
   catCursor.style.left = e.pageX + "px"; 
   catCursor.style.top = e.pageY + "px";  
 });
