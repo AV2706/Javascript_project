@@ -7,6 +7,14 @@ body {
   overflow: hidden;
   cursor: none;
 }
+
+html {
+  cursor: pointer;
+  cursor: help;
+  cursor: progress;
+
+  cursor: url("catcursor.png"), auto
+}
 •	Cute background, hides cursor, centers text, prevents scrollbars
 h1 {
   color: #ff80ab;
@@ -19,6 +27,7 @@ h1 {
 •	Absolute positioning allows movement anywhere with JS
 #cat-cursor {
   position: absolute;
-  pointer-events: none;
+  pointer-events: auto;
   transform: translate(-50%, -50%);
+  cursor:pointer;
 }
