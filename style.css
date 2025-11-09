@@ -8,26 +8,29 @@ body {
   cursor: none;
 }
 
-html {
+/* html {
   cursor: pointer;
   cursor: help;
   cursor: progress;
 
-  cursor: url("catcursor.png"), auto
-}
-•	Cute background, hides cursor, centers text, prevents scrollbars
+  cursor: url(/img/magnify.cur), auto;
+  pointer-events: auto;
+}  */
+ /* •	Cute background, hides cursor, centers text, prevents scrollbars */
 h1 {
-  color: #ff80ab;
+  color: #ffffff;
   margin-top: 10px;
 }
 #ball {
   position: absolute;
   width: 60px;
 }
-•	Absolute positioning allows movement anywhere with JS
+ /* •	Absolute positioning allows movement anywhere with JS */
 #cat-cursor {
   position: absolute;
   pointer-events: auto;
   transform: translate(-50%, -50%);
-  cursor:pointer;
-}
+  cursor: pointer;
+  cursor: url(/img/magnify.cur), auto; 
+
+} 

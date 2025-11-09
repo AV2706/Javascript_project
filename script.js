@@ -12,8 +12,8 @@ catCursor.style.height = "50px";
 let score = 0;
 document.addEventListener("mousemove", (e) => {
   console.log(e.pageX, e.pageY);
-  catCursor.style.left = e.pageX + "px"; 
-  catCursor.style.top = e.pageY + "px";  
+  cursor.style.left = e.pageX + "px"; 
+  cursor.style.top = e.pageY + "px";  
 });
 
 let ballX = 100, ballY = 100; 
@@ -32,7 +32,7 @@ setInterval(() => {
   ball.style.top = `${ballY}px`;
 
 
-const catRect = catCursor.getBoundingClientRect();
+const catRect = cursor.getBoundingClientRect();
 const ballRect = ball.getBoundingClientRect();
 const overlap =
 catRect.left < ballRect.right &&
