@@ -3,7 +3,7 @@ const scoreDisplay = document.getElementById("score");
 const catchSound = document.getElementById("catchSound"); 
 
 const catCursor = document.createElement("img");       
-catCursor.src = "cat.jpeg";   
+catCursor.src = "catcursor.png";   
 catCursor.id = "cat-cursor";                        
 document.body.appendChild(catCursor);  
 catCursor.style.width = "50px";
